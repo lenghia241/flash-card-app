@@ -1,0 +1,40 @@
+.buttonContainer {
+    width: 100%;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #55c57a;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+}
+
+btn:link, .btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    transform: all 0.2s;
+    display: inline-block;
+    border-radius: 100px;
+    position: relative;
+    font-size: 1.6rem;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-animated {
+    animation: moveInBottom .5s ease-out 0.75s;
+    animation-fill-mode: backwards;
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,55 @@
+/* entire container, keeps perspective */
+.card-container {
+    perspective: 1000px;
+    text-align: center;
+}
+	/* card the pane when hovered */
+	.card-container:hover .card, .card-container.hover .cardper {
+		transform: rotateY(180deg);
+	}
+
+.card-container, .front, .back {
+	width: 320px;
+    height: 480px;
+    margin: auto;
+}
+
+/* card speed goes here */
+.card {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+    position: relative;
+    padding-right: 45%;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+    left: 0;
+    border: 1px solid black;
+
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+
+.eng, .fin {
+    color: black;
+    font-size: 30px;
+    padding-top: 45%;
+}
+
+.fin {
+    padding-top: 45%;
+}

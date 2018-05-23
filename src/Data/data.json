@@ -1,0 +1,114 @@
+{
+    "cards": [
+        {
+            "id": 1,
+            "eng": "pöytätietokone",
+            "fin": "desktop computer"
+        },
+        {
+            "id": 2,
+            "eng": "kannettava tietokone",
+            "fin": "laptop computer"
+        },
+        {
+            "id": 3,
+            "eng": "näytönohjain",
+            "fin": "video card"
+        },
+        {
+            "id": 4,
+            "eng": "tulostin",
+            "fin": "printer"
+        },
+        {
+            "id": 5,
+            "eng": "skanneri",
+            "fin": "scanner"
+        },
+        {
+            "id": 6,
+            "eng": "muistikortti",
+            "fin": "memory card"
+        },
+        {
+            "id": 7,
+            "eng": "käyttöjärjestelmä",
+            "fin": "operating system"
+        },
+        {
+            "id": 8,
+            "eng": "tekstinkäsittelyohjelma",
+            "fin": "word processor"
+        },
+        {
+            "id": 9,
+            "eng": "Internet-selain",
+            "fin": "internet browser"
+        },
+        {
+            "id": 10,
+            "eng": "kuvankäsittelyohjelma",
+            "fin": "picture manipulating program"
+        },
+        {
+            "id": 11,
+            "eng": "virustentorjuntaohjelma",
+            "fin": "antivirus program"
+        },
+        {
+            "id": 12,
+            "eng": "palomuuri",
+            "fin": "firewall"
+        },
+        {
+            "id": 13,
+            "eng": "kiintolevy",
+            "fin": "hard disk"
+        },
+        {
+            "id": 14,
+            "eng": "emolevy",
+            "fin": "motherboard"
+        },
+        {
+            "id": 15,
+            "eng": "suoritin",
+            "fin": "processor"
+        },
+        {
+            "id": 16,
+            "eng": "hakemisto",
+            "fin": "folder"
+        },
+        {
+            "id": 17,
+            "eng": "tiedosto",
+            "fin": "file"
+        },
+        {
+            "id": 18,
+            "eng": "käyttäjä",
+            "fin": "user"
+        },
+        {
+            "id": 19,
+            "eng": "tietokanta",
+            "fin": "database"
+        },
+        {
+            "id": 20,
+            "eng": "näppäimistö",
+            "fin": "keyboard"
+        },
+        {
+            "id": 21,
+            "eng": "hiiri",
+            "fin": "mouse"
+        },
+        {
+            "id": 22,
+            "eng": "resoluutio",
+            "fin": "resolution"
+        }
+    ]
+}
